@@ -18,7 +18,7 @@ import com.fantasy.clash.framework.utils.StringUtils;
 
 @Configuration
 public class CassandraConfiguration {
-Logger logger  = LoggerFactory.getLogger(CassandraConfiguration.class);
+  Logger logger  = LoggerFactory.getLogger(CassandraConfiguration.class);
   
   @Autowired
   private Configurator config;
